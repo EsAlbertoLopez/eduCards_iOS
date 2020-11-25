@@ -7,34 +7,90 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-Black.ttf">
+            <string>NunitoSans-Black</string>
+        </array>
+        <array key="NunitoSans-Light.ttf">
+            <string>NunitoSans-Light</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="eduCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rhZ-Hw-hK0">
+                                <rect key="frame" x="20" y="44" width="374" height="106"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eduCards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-bS-A0U">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="75.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Black" family="Nunito Sans" pointSize="55"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning, User!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ij5-eR-sf3">
+                                        <rect key="frame" x="0.0" y="75.5" width="374" height="30.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Light" family="Nunito Sans" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rhZ-Hw-hK0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ADy-LG-j4j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rhZ-Hw-hK0" secondAttribute="trailing" constant="20" id="Ccb-KI-uvA"/>
+                            <constraint firstItem="rhZ-Hw-hK0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yfX-FI-041"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="M4y-ue-0Co"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="M4y-ue-0Co"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="149" y="1535"/>
+            <point key="canvasLocation" x="147.82608695652175" y="1534.8214285714284"/>
         </scene>
-        <!--Item-->
+        <!--General-->
         <scene sceneID="9RC-73-whm">
             <objects>
                 <viewController id="8Vc-jr-9j4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tdu-DG-fD4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="610-Js-nb2">
+                                <rect key="frame" x="20" y="44" width="374" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dj-rp-bD8">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="76.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Black" family="Nunito Sans" pointSize="56"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Course" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgG-71-f1B">
+                                        <rect key="frame" x="0.0" y="76.5" width="374" height="30.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Light" family="Nunito Sans" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="81V-cz-DBR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="610-Js-nb2" firstAttribute="leading" secondItem="81V-cz-DBR" secondAttribute="leading" constant="20" id="1S5-Rb-nV9"/>
+                            <constraint firstItem="610-Js-nb2" firstAttribute="top" secondItem="81V-cz-DBR" secondAttribute="top" id="9jO-Ig-MIz"/>
+                            <constraint firstItem="81V-cz-DBR" firstAttribute="trailing" secondItem="610-Js-nb2" secondAttribute="trailing" constant="20" id="F61-ta-tQb"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="47q-O8-stq"/>
+                    <tabBarItem key="tabBarItem" title="General" image="folder.fill" catalog="system" id="47q-O8-stq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3p-PL-MJQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,9 +101,13 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="94Y-Ph-lKe" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4sd-qe-Hyh">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="4sd-qe-Hyh">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="VTe-3z-Hiy"/>
@@ -60,33 +120,81 @@
             </objects>
             <point key="canvasLocation" x="1336" y="717"/>
         </scene>
-        <!--Item-->
+        <!--Luve-->
         <scene sceneID="0De-3a-iig">
             <objects>
                 <viewController id="NhA-5F-B3Q" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w9z-7k-ml2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="341-NY-z8r">
+                                <rect key="frame" x="20" y="44" width="374" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYh-kr-O9J">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="76.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Black" family="Nunito Sans" pointSize="56"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easy Student Reporting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ws9-dr-U4e">
+                                        <rect key="frame" x="0.0" y="76.5" width="374" height="30.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Light" family="Nunito Sans" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="HnJ-6j-auJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="341-NY-z8r" firstAttribute="top" secondItem="HnJ-6j-auJ" secondAttribute="top" id="8Ok-th-y7e"/>
+                            <constraint firstItem="HnJ-6j-auJ" firstAttribute="trailing" secondItem="341-NY-z8r" secondAttribute="trailing" constant="20" id="CYd-x0-Stj"/>
+                            <constraint firstItem="341-NY-z8r" firstAttribute="leading" secondItem="HnJ-6j-auJ" secondAttribute="leading" constant="20" id="bKu-Le-mGV"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rh1-Jc-9gd"/>
+                    <tabBarItem key="tabBarItem" title="Luve" image="play.rectangle.fill" catalog="system" id="rh1-Jc-9gd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjt-2y-ygO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1712" y="1535"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="HIY-hR-9dx">
             <objects>
                 <viewController id="FCh-Ae-aEO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3ps-Cr-POO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ODL-J0-GEN">
+                                <rect key="frame" x="20" y="44" width="374" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyK-nZ-KFo">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="76.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Black" family="Nunito Sans" pointSize="56"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Configure your Workspace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqg-ce-x4D">
+                                        <rect key="frame" x="0.0" y="76.5" width="374" height="30.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Light" family="Nunito Sans" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4Ox-Vt-HKD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ODL-J0-GEN" firstAttribute="top" secondItem="4Ox-Vt-HKD" secondAttribute="top" id="1aC-WW-p0b"/>
+                            <constraint firstItem="ODL-J0-GEN" firstAttribute="leading" secondItem="4Ox-Vt-HKD" secondAttribute="leading" constant="20" id="LsR-R0-HGp"/>
+                            <constraint firstItem="4Ox-Vt-HKD" firstAttribute="trailing" secondItem="ODL-J0-GEN" secondAttribute="trailing" constant="20" id="X1E-Ra-hrv"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="JuD-Eu-eX8"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="JuD-Eu-eX8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTQ-qN-8ra" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,6 +202,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="folder.fill" catalog="system" width="128" height="97"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="play.rectangle.fill" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
