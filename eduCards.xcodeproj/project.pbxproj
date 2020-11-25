@@ -13,6 +13,7 @@
 		30A913E8256DF803003897BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A913E6256DF803003897BC /* Main.storyboard */; };
 		30A913EA256DF805003897BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A913E9256DF805003897BC /* Assets.xcassets */; };
 		30A913ED256DF805003897BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A913EB256DF805003897BC /* LaunchScreen.storyboard */; };
+		30A913F6256E012D003897BC /* Nunito_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 30A913F5256E012D003897BC /* Nunito_Sans */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		30A913E9256DF805003897BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30A913EC256DF805003897BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30A913EE256DF805003897BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A913F5256E012D003897BC /* Nunito_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Nunito_Sans; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		30A913DF256DF803003897BC /* eduCards */ = {
 			isa = PBXGroup;
 			children = (
+				30A913F5256E012D003897BC /* Nunito_Sans */,
 				30A913E0256DF803003897BC /* AppDelegate.swift */,
 				30A913E2256DF803003897BC /* SceneDelegate.swift */,
 				30A913E4256DF803003897BC /* ViewController.swift */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A913F6256E012D003897BC /* Nunito_Sans in Resources */,
 				30A913ED256DF805003897BC /* LaunchScreen.storyboard in Resources */,
 				30A913EA256DF805003897BC /* Assets.xcassets in Resources */,
 				30A913E8256DF803003897BC /* Main.storyboard in Resources */,
