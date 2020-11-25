@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  eduCards
-//
-//  Created by Alberto López Reyes on 24/11/20.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
