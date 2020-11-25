@@ -33,6 +33,12 @@
 		30A9142A256E53EC003897BC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91429256E53EC003897BC /* SignInViewController.swift */; };
 		30A9142D256E580A003897BC /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9142C256E580A003897BC /* LiveViewController.swift */; };
 		30A91430256E58EB003897BC /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9142F256E58EB003897BC /* GeneralViewController.swift */; };
+		30A91437256E63DC003897BC /* AddCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91436256E63DC003897BC /* AddCourseViewController.swift */; };
+		30A9143A256E664A003897BC /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91439256E664A003897BC /* GroupsViewController.swift */; };
+		30A9143D256E6994003897BC /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9143C256E6994003897BC /* AddGroupViewController.swift */; };
+		30A91440256E6B65003897BC /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9143F256E6B65003897BC /* StudentsViewController.swift */; };
+		30A91443256E6E4B003897BC /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91442256E6E4B003897BC /* AddStudentViewController.swift */; };
+		30A91446256E7340003897BC /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91445256E7340003897BC /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +70,12 @@
 		30A91429256E53EC003897BC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		30A9142C256E580A003897BC /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		30A9142F256E58EB003897BC /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		30A91436256E63DC003897BC /* AddCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseViewController.swift; sourceTree = "<group>"; };
+		30A91439256E664A003897BC /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		30A9143C256E6994003897BC /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		30A9143F256E6B65003897BC /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		30A91442256E6E4B003897BC /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		30A91445256E7340003897BC /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,12 @@
 				30A91429256E53EC003897BC /* SignInViewController.swift */,
 				30A9142C256E580A003897BC /* LiveViewController.swift */,
 				30A9142F256E58EB003897BC /* GeneralViewController.swift */,
+				30A91436256E63DC003897BC /* AddCourseViewController.swift */,
+				30A91439256E664A003897BC /* GroupsViewController.swift */,
+				30A9143C256E6994003897BC /* AddGroupViewController.swift */,
+				30A9143F256E6B65003897BC /* StudentsViewController.swift */,
+				30A91442256E6E4B003897BC /* AddStudentViewController.swift */,
+				30A91445256E7340003897BC /* CardViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -244,14 +262,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A9143D256E6994003897BC /* AddGroupViewController.swift in Sources */,
 				30A913E5256DF803003897BC /* ViewController.swift in Sources */,
+				30A91437256E63DC003897BC /* AddCourseViewController.swift in Sources */,
 				30A913E1256DF803003897BC /* AppDelegate.swift in Sources */,
 				30A9142D256E580A003897BC /* LiveViewController.swift in Sources */,
+				30A9143A256E664A003897BC /* GroupsViewController.swift in Sources */,
 				30A91430256E58EB003897BC /* GeneralViewController.swift in Sources */,
 				30A9142A256E53EC003897BC /* SignInViewController.swift in Sources */,
+				30A91446256E7340003897BC /* CardViewController.swift in Sources */,
+				30A91440256E6B65003897BC /* StudentsViewController.swift in Sources */,
 				30A913E3256DF803003897BC /* SceneDelegate.swift in Sources */,
 				30A91422256E3DB8003897BC /* SettingsViewController.swift in Sources */,
 				30A91427256E4C20003897BC /* SignUpViewController.swift in Sources */,
+				30A91443256E6E4B003897BC /* AddStudentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

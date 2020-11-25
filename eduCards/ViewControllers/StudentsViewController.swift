@@ -1,5 +1,5 @@
 //
-//  GeneralViewController.swift
+//  StudentsViewController.swift
 //  eduCards
 //
 //  Created by Alberto López Reyes on 25/11/20.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class GeneralViewController: UIViewController {
-    
+class StudentsViewController: UIViewController {
+
     @IBOutlet weak var tvSubtitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Courses"
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {

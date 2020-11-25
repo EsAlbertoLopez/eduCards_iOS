@@ -1,5 +1,5 @@
 //
-//  GeneralViewController.swift
+//  AddStudentViewController.swift
 //  eduCards
 //
 //  Created by Alberto López Reyes on 25/11/20.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class GeneralViewController: UIViewController {
+class AddStudentViewController: UIViewController {
     
     @IBOutlet weak var tvSubtitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Courses"
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -35,5 +34,9 @@ class GeneralViewController: UIViewController {
         } else {
             tvSubtitle?.textAlignment = .left
         }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
 }
