@@ -11,6 +11,9 @@
         <array key="NunitoSans-Black.ttf">
             <string>NunitoSans-Black</string>
         </array>
+        <array key="NunitoSans-ExtraBold.ttf">
+            <string>NunitoSans-ExtraBold</string>
+        </array>
         <array key="NunitoSans-Light.ttf">
             <string>NunitoSans-Light</string>
         </array>
@@ -41,6 +44,13 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjZ-af-2g1">
+                                <rect key="frame" x="20" y="158" width="374" height="46.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-ExtraBold" family="Nunito Sans" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -185,20 +195,89 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Nm-jh-WbL">
+                                <rect key="frame" x="20" y="159" width="374" height="646"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fN-UN-L4u">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="650"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eQf-R3-02p">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="142.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdM-uJ-PZh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="46.5"/>
+                                                        <fontDescription key="fontDescription" name="NunitoSans-ExtraBold" family="Nunito Sans" pointSize="34"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohs-W0-bvS">
+                                                        <rect key="frame" x="0.0" y="46.5" width="374" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="Sign Up"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHH-zk-Tfs">
+                                                        <rect key="frame" x="0.0" y="94.5" width="374" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="Sign In"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZTV-KM-Fpt">
+                                                <rect key="frame" x="0.0" y="162.5" width="374" height="94.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfa-iR-pyI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="46.5"/>
+                                                        <fontDescription key="fontDescription" name="NunitoSans-ExtraBold" family="Nunito Sans" pointSize="34"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNc-Q8-KXo">
+                                                        <rect key="frame" x="0.0" y="46.5" width="374" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                        <state key="normal" title="About"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ZTV-KM-Fpt" secondAttribute="trailing" id="3Qf-YV-kCJ"/>
+                                            <constraint firstAttribute="height" constant="650" id="cSd-Ct-G4W"/>
+                                            <constraint firstItem="ZTV-KM-Fpt" firstAttribute="leading" secondItem="5fN-UN-L4u" secondAttribute="leading" id="eOJ-C0-hVW"/>
+                                            <constraint firstAttribute="trailing" secondItem="eQf-R3-02p" secondAttribute="trailing" id="eWI-la-RYV"/>
+                                            <constraint firstItem="ZTV-KM-Fpt" firstAttribute="top" secondItem="eQf-R3-02p" secondAttribute="bottom" constant="20" id="lq0-6a-Pov"/>
+                                            <constraint firstItem="eQf-R3-02p" firstAttribute="leading" secondItem="5fN-UN-L4u" secondAttribute="leading" id="p2s-1R-3FA"/>
+                                            <constraint firstItem="eQf-R3-02p" firstAttribute="top" secondItem="5fN-UN-L4u" secondAttribute="top" id="wxf-ov-bxG"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5fN-UN-L4u" firstAttribute="top" secondItem="3Nm-jh-WbL" secondAttribute="top" id="LXs-uw-YkF"/>
+                                    <constraint firstItem="5fN-UN-L4u" firstAttribute="width" secondItem="3Nm-jh-WbL" secondAttribute="width" id="Lz3-Zj-flR"/>
+                                    <constraint firstAttribute="trailing" secondItem="5fN-UN-L4u" secondAttribute="trailing" id="MKX-8c-hO1"/>
+                                    <constraint firstAttribute="bottom" secondItem="5fN-UN-L4u" secondAttribute="bottom" id="kOb-e0-nbJ"/>
+                                    <constraint firstItem="5fN-UN-L4u" firstAttribute="height" secondItem="3Nm-jh-WbL" secondAttribute="height" priority="250" id="qpa-Ov-WzX"/>
+                                    <constraint firstItem="5fN-UN-L4u" firstAttribute="leading" secondItem="3Nm-jh-WbL" secondAttribute="leading" id="z4B-BM-nE8"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Ox-Vt-HKD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ODL-J0-GEN" firstAttribute="top" secondItem="4Ox-Vt-HKD" secondAttribute="top" id="1aC-WW-p0b"/>
+                            <constraint firstItem="4Ox-Vt-HKD" firstAttribute="trailing" secondItem="3Nm-jh-WbL" secondAttribute="trailing" constant="20" id="AiX-z4-YOU"/>
                             <constraint firstItem="ODL-J0-GEN" firstAttribute="leading" secondItem="4Ox-Vt-HKD" secondAttribute="leading" constant="20" id="LsR-R0-HGp"/>
                             <constraint firstItem="4Ox-Vt-HKD" firstAttribute="trailing" secondItem="ODL-J0-GEN" secondAttribute="trailing" constant="20" id="X1E-Ra-hrv"/>
+                            <constraint firstItem="3Nm-jh-WbL" firstAttribute="leading" secondItem="4Ox-Vt-HKD" secondAttribute="leading" constant="20" id="ibz-fI-5Al"/>
+                            <constraint firstItem="4Ox-Vt-HKD" firstAttribute="bottom" secondItem="3Nm-jh-WbL" secondAttribute="bottom" constant="8" id="l1y-MG-Qah"/>
+                            <constraint firstItem="3Nm-jh-WbL" firstAttribute="top" secondItem="ODL-J0-GEN" secondAttribute="bottom" constant="8" symbolic="YES" id="sE7-gW-RdY"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="JuD-Eu-eX8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTQ-qN-8ra" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2471" y="1535"/>
+            <point key="canvasLocation" x="2469.5652173913045" y="1534.8214285714284"/>
         </scene>
     </scenes>
     <resources>
