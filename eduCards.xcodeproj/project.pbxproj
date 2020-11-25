@@ -39,6 +39,8 @@
 		30A91440256E6B65003897BC /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9143F256E6B65003897BC /* StudentsViewController.swift */; };
 		30A91443256E6E4B003897BC /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91442256E6E4B003897BC /* AddStudentViewController.swift */; };
 		30A91446256E7340003897BC /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A91445256E7340003897BC /* CardViewController.swift */; };
+		30A9144A256EAF99003897BC /* rano.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A91449256EAF98003897BC /* rano.png */; };
+		30A9144D256EAF9E003897BC /* logoappbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A9144C256EAF9E003897BC /* logoappbig.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		30A9143F256E6B65003897BC /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 		30A91442256E6E4B003897BC /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
 		30A91445256E7340003897BC /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		30A91449256EAF98003897BC /* rano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rano.png; sourceTree = "<group>"; };
+		30A9144C256EAF9E003897BC /* logoappbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoappbig.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		30A913FF256E10F8003897BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				30A91448256EAF8A003897BC /* Images */,
 				30A91400256E1102003897BC /* Fonts */,
 			);
 			path = Resources;
@@ -175,6 +180,15 @@
 				30A91445256E7340003897BC /* CardViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30A91448256EAF8A003897BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30A91449256EAF98003897BC /* rano.png */,
+				30A9144C256EAF9E003897BC /* logoappbig.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +260,8 @@
 				30A9141D256E113A003897BC /* NunitoSans-BlackItalic.ttf in Resources */,
 				30A91416256E113A003897BC /* OFL.txt in Resources */,
 				30A91419256E113A003897BC /* NunitoSans-Italic.ttf in Resources */,
+				30A9144A256EAF99003897BC /* rano.png in Resources */,
+				30A9144D256EAF9E003897BC /* logoappbig.png in Resources */,
 				30A91415256E113A003897BC /* NunitoSans-BoldItalic.ttf in Resources */,
 				30A913E8256DF803003897BC /* Main.storyboard in Resources */,
 				30A91411256E113A003897BC /* NunitoSans-Light.ttf in Resources */,
